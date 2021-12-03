@@ -26,10 +26,10 @@ if(!$obCrud instanceof Crud){
 }
 
 //VALIDAÇÃO DO POST
-if(isset($_POST['campNome'],$_POST['campEmail'])){
+if(isset($_POST['campNome'],$_POST['campLink'])){
 
   $obCrud->nome   = $_POST['campNome'];
-  $obCrud->email = $_POST['campEmail'];
+  $obCrud->email = $_POST['campLink'];
   $obCrud->atualizar();
 
   header('location: index.php?status=success');

@@ -4,8 +4,8 @@
 
   <form method="post">
 
-    <div class="form-group">
-      <p style="color:white">Você deseja realmente excluir a vaga <strong><?=$obCrud->Nome?></strong>?</p>
+  <div class="form-group">
+      <p style="color: white;">Você deseja realmente excluir a vaga <strong><?=$obCrud->nome?></strong>?</p>
     </div>
 
     <div class="form-group">
